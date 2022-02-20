@@ -17,13 +17,21 @@ h1{
 }
 
 /* Style the list items */
-ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  background: rgb(27, 26, 26);
-  font-size: 18px;
+ul{
+  position: absolute;
+  left: 233px;
+  right: 200px;
+  top: 140px;
+  padding: 12px 18px 12px 40px;
+  background:rgb(27, 26, 26);
+  color:white;
+  font-size: 25px;
   transition: 0.2s;
+  height: 80px;
+  width: 900px;
+  border-radius: 25px;
+  
+ 
 
   /* make the list items unselectable */
   -webkit-user-select: none;
@@ -32,21 +40,9 @@ ul li {
   user-select: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
-ul li:nth-child(odd) {
-  background: rgb(27, 26, 26);
-}
-
-
-/* When clicked on, add a background color and strike out text */
-ul li.checked {
-  background: rgb(27, 26, 26);
-  
-}
-
 
 .close:hover {
-  background-color:rgb(27, 26, 26);
+  background-color:white;
   color: white;
 }
 
@@ -59,12 +55,16 @@ ul li.checked {
   margin: 0 auto;
   height: 100px;
   width: 900px;
+  border-radius: 25px;
+  
   
 }
 
 .myInput{
   margin: 0 auto;
   padding-left: 30px;
+  
+  background-color: rgb(236, 236, 236) ;
 }
 
 
