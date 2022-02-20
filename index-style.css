@@ -11,25 +11,19 @@ ul {
 
 
 h1{
-  padding-left: 550px;
+  padding-left: 593px;
   color: rgb(57, 62, 92);
 
 }
 
 /* Style the list items */
 ul{
-  position: absolute;
-  left: 233px;
-  right: 200px;
-  top: 140px;
-  padding: 12px 18px 12px 40px;
-  background:rgb(27, 26, 26);
+ 
   color:white;
-  font-size: 25px;
+  font-size: 1.875em;
   transition: 0.2s;
-  height: 80px;
-  width: 900px;
-  border-radius: 25px;
+  text-align:left;
+  list-style-type: none;
   
  
 
@@ -51,19 +45,20 @@ ul{
   background-color:rgb(27, 26, 26);
   padding: 30px 40px;
   color: white;
-  text-align: center;
+  text-align:right;
   margin: 0 auto;
-  height: 100px;
-  width: 900px;
+  height: 100%;
+  width: 550px;
   border-radius: 25px;
+  text-underline-position: under;
+  
+  
   
   
 }
 
 .myInput{
   margin: 0 auto;
-  padding-left: 30px;
-  
   background-color: rgb(236, 236, 236) ;
 }
 
@@ -77,11 +72,11 @@ ul{
 
 /* Style the input */
 input {
-  margin: 0;
+  margin-top: 20;
   border: none;
-  border-radius: 0;
+  border-radius:25px;
   width: 75%;
-  padding: 10px;
+  padding: 8px;
   float: left;
   font-size: 16px;
   background-color:rgb(236, 236, 236);
@@ -89,16 +84,22 @@ input {
 
 /* Style the "Add" button */
 .addBtn {
-  padding: 10px;
-  width: 25%;
+  width: 10%;
+  height: 5%;
+  position:absolute;
+  top: 112px;
+  left: 808px;
   background:rgba(18, 141, 212, 0.801);
   color:black;
   float:right;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-  border-radius: 0;
+  border-radius:55px;
+ 
 }
 .myDIV{
   margin: 0 auto;
