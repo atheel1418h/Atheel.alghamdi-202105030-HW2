@@ -25,6 +25,7 @@ ul{
   text-align:left;
   list-style-type: none;
   
+  
  
 
   /* make the list items unselectable */
@@ -50,11 +51,7 @@ ul{
   height: 100%;
   width: 550px;
   border-radius: 25px;
-  text-underline-position: under;
-  
-  
-  
-  
+  text-decoration: underline ;
 }
 
 .myInput{
@@ -68,6 +65,7 @@ ul{
   content: "";
   display: table;
   clear: both;
+  
 }
 
 /* Style the input */
